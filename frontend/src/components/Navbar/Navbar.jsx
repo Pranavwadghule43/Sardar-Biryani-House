@@ -4,6 +4,7 @@ import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState("Home");
 
   return (

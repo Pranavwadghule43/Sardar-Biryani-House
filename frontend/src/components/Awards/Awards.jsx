@@ -22,6 +22,7 @@ const Awards = () => {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

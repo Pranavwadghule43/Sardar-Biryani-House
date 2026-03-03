@@ -17,7 +17,6 @@
 
 .explore-menu-list {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 20px;
   text-align: center;
@@ -63,12 +62,33 @@
   .explore-menu h1 {
     font-size: 25px;
   }
-
   .explore-menu-text {
-    font-size: 17px;
-    max-width: 80%;
+    font-size: 15px;
+    max-width: 90%;
   }
   .explore-menu hr {
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .explore-menu {
+    margin-bottom: 10px;
+  }
+  .explore-menu h1 {
+    font-size: 20px;
+  }
+  .explore-menu-text {
+    font-size: 13px;
+    max-width: 95%;
+  }
+  .explore-menu-list {
+    margin-top: 10px;
+  }
+  .explore-menu-list-item img {
+    width: 30px;
+  }
+  .explore-menu-list-item p {
+    font-size: 14px;
   }
 }

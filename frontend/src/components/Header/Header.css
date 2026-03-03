@@ -2,8 +2,7 @@
   width: 80%;
   height: 42vw;
   margin: 22px auto;
-  background: url("C:/Users/pravin kolhe/OneDrive/Desktop/restaurant/frontend/src/assets/header_img.png")
-    no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   position: relative;
   border-radius: 20px;
@@ -31,9 +30,34 @@
   font-size: 1vw;
 }
 
+@media (max-width: 390px) {
+  .header h2 {
+    font-size: 13px;
+  }
+  .header-contents {
+    bottom: 20px;
+  }
+  .header p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 900px) {
   .header {
     width: 90%;
     background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    width: 95%;
+    margin-top: 15px;
+  }
+  .header p {
+    font-size: 9px;
+  }
+  .header-contents {
+    bottom: 30%;
   }
 }

@@ -42,3 +42,34 @@
   margin: 10px 0px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 900px) {
+  .food-item-name-rating p {
+    font-size: 17px;
+  }
+  .food-item-name-rating img {
+    width: 42px;
+  }
+  .food-item-desc {
+    font-size: 15px;
+  }
+  .food-item-name-rating img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .food-item-name-rating p {
+    font-size: 13px;
+  }
+  .food-item-desc {
+    font-size: 11px;
+  }
+  .food-item-price {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .food-item-info {
+    padding: 12px;
+  }
+}

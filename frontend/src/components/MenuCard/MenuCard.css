@@ -36,7 +36,32 @@
 }
 
 @media (max-width: 900px) {
+  .menu-card {
+    width: 85%;
+  }
   .menu_card_items {
     margin-top: 20px;
+  }
+  .menu-card h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-card {
+    width: 90%;
+  }
+  .menu-card h1 {
+    font-size: 20px;
+  }
+  .menu_card_items {
+    height: 400px;
+    margin-top: 10px;
+  }
+  .menu_card_img img {
+    width: 240px;
+  }
+  .menu-card hr {
+    margin: 10px;
   }
 }

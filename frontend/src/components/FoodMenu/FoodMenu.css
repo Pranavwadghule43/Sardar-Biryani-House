@@ -25,7 +25,23 @@
 }
 
 @media (max-width: 900px) {
+  .food-display {
+    width: 87%;
+  }
   .food-display-list {
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .food-display {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .food-display h2 {
+    font-size: 18px;
+  }
+  .food-display-list {
+    grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
   }
 }
