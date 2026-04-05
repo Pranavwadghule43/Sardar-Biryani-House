@@ -33,14 +33,14 @@ const Navbar = () => {
           Contact Us
         </a>
         <a
-          href="#"
+          href="#ambiance"
           onClick={() => setMenu("Ambiance")}
           className={menu === "Ambiance" ? "active" : ""}
         >
           Ambiance
         </a>
         <a
-          href="#"
+          href="#awards"
           onClick={() => setMenu("Awards")}
           className={menu === "Awards" ? "active" : ""}
         >

@@ -27,7 +27,7 @@
 }
 
 .header p {
-  font-size: 1vw;
+  font-size: 1.1vw;
 }
 
 @media (max-width: 390px) {
@@ -49,6 +49,15 @@
   }
 }
 
+@media (max-width: 650px) {
+  .header p {
+    font-size: 11px;
+  }
+  .header-contents {
+    bottom: 30%;
+  }
+}
+
 @media (max-width: 500px) {
   .header {
     width: 95%;
@@ -56,8 +65,5 @@
   }
   .header p {
     font-size: 9px;
-  }
-  .header-contents {
-    bottom: 30%;
   }
 }

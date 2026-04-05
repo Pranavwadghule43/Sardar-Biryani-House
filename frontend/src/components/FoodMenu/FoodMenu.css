@@ -43,5 +43,6 @@
   }
   .food-display-list {
     grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
+    row-gap: 30px;
   }
 }

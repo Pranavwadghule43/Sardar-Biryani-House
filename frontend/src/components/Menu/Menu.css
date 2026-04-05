@@ -84,11 +84,12 @@
   }
   .explore-menu-list {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .explore-menu-list-item img {
     width: 30px;
   }
   .explore-menu-list-item p {
-    font-size: 14px;
+    font-size: 13px;
   }
 }

@@ -74,13 +74,16 @@
 @media (max-width: 500px) {
   .awards {
     width: 90%;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
   .awards h1 {
     font-size: 20px;
   }
   .awards-section {
     grid-template-columns: 1fr 1fr;
+  }
+  .awards hr{
+    margin-top: 30px;
   }
 }
 

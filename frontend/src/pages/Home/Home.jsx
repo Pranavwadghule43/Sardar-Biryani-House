@@ -5,6 +5,8 @@ import FoodMenu from "../../components/FoodMenu/FoodMenu";
 import MenuCard from "../../components/MenuCard/MenuCard";
 import Awards from "../../components/Awards/Awards";
 import Guests from "../../components/Guests/Guests";
+import ReviewsLocation from "../../components/ReviewsLocation/ReviewsLocation";
+import Ambiance from "../../components/Ambiance/Ambiance";
 
 const Home = () => {
   // Menu Sorting
@@ -18,6 +20,8 @@ const Home = () => {
       <MenuCard />
       <Awards />
       <Guests />
+      <Ambiance />
+      <ReviewsLocation />
     </div>
   );
 };

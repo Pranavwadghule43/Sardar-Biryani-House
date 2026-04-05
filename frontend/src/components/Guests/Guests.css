@@ -1,7 +1,7 @@
 .celebrity-gallery {
   width: 80%;
   margin: auto;
-  padding: 60px 20px;
+  padding: 35px 20px;
   padding-top: 0px;
 }
 
@@ -63,6 +63,15 @@
   }
 }
 
+@media (max-width: 670px) {
+  .celebrity-gallery{
+    width: 90%;
+  }
+  .gallery-grid{
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
 @media (max-width: 480px) {
   .celebrity-gallery {
     width: 95%;
@@ -76,5 +85,16 @@
   }
   .gallery-grid {
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    padding: 15px;
+  }
+}
+
+@media (max-width: 412px) {
+  .gallery-card {
+    margin: auto;
+  }
+  .gallery-grid {
+    max-height: 400px;
+    overflow-y: auto;
   }
 }
